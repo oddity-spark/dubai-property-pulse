@@ -35,7 +35,7 @@ V1 excludes villas, plots, rentals, mortgages, and gifts. Rental yield is intent
 ├── create_clean_v1.py
 ├── create_final_analysis_v1.py
 ├── create_chart_previews_v1.py
-├── chart_previews/
+├── docs/
 │   ├── index.html
 │   ├── 01_top_communities_by_transactions.html
 │   ├── 02_quarterly_transaction_trend.html
@@ -51,7 +51,7 @@ Large raw and cleaned CSV files are not intended to be committed to Git.
 ## Key Outputs
 
 - [V1 case study](case_study_v1.md)
-- [Chart preview index](chart_previews/index.html)
+- [Chart preview index](docs/index.html)
 - Final analysis dataset: `data_clean/final_area_quarter_analysis_v1.csv`
 
 The final analysis dataset is generated locally and ignored by Git. It can be recreated by running the scripts below.
@@ -94,7 +94,7 @@ python create_chart_previews_v1.py
 Open the chart previews:
 
 ```bash
-open chart_previews/index.html
+open docs/index.html
 ```
 
 ## Limitations

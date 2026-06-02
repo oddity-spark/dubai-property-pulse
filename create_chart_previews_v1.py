@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 
 INPUT_FILE = Path("data_clean/final_area_quarter_analysis_v1.csv")
-OUTPUT_DIR = Path("chart_previews")
+OUTPUT_DIR = Path("docs")
 
 
 def format_axis(fig):
